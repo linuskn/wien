@@ -222,6 +222,10 @@
 
         // Ausschnitt setzen
         // TODO: Ausschnitt auf Stationen des Stadtpaziergangs setzen
+		
+		var ausschnitt = (punkteSpaziergang.getBounds());
+		
+		map.fitBounds(ausschnitt);
     </script>
 
 </body>
